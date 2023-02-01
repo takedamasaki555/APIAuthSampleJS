@@ -10,7 +10,7 @@ const msalConfig = {
         // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
         authority: "https://login.microsoftonline.com/ed5695f5-b29b-4836-bcb0-f89023d21599",
         // Full redirect URL, in form of http://localhost:3000
-        redirectUri: "http://localhost:3000",
+        redirectUri: "https://frontend-demo555.azurewebsites.net",
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
